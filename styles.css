@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;700;800;900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.menu{
+    display: none;
+}
+
+header{
+    display: flex;
+    max-width: 1920px;
+    width: 100%;
+    background-color: #FFFFFF;
+    align-items: center;
+    justify-content: space-evenly;
+    position: sticky;
+    top: 0;
+}
+
+.portflow{
+    font-size: 2vw;
+    width: 50%;
+}
+
+.menuItems{
+    width: 25%;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.itemsList{
+    width: 100%;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+.home{
+    width: 14%;
+}
+
+.blog{
+    width: 11%;
+}
+
+.values{
+    width: 16%;
+}
+
+.portfolio{
+    width: 18.5%;
+}
+
+.contact{
+    width: 17.5%;
+}
+
+.linkItem{
+    text-decoration: none;
+    color: #000;
+    font-size: 1vw;
+}
+
+.linkItem:hover{
+    font-weight: 900;
+}
+
+.firstSection{
+    height: 70vh;
+    background-image: url('./assets/Background.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+}
+
+h1{
+    font-size: 4vw;
+    width: 60vw;
+}
+
+.firstSectionButton{
+    background-color: transparent;
+    font-size: 1.7vw;
+    color: #FFFFFF;
+    width: 14.1vw;
+    border: none;
+    height: 15vh;
+}
+
+.firstSectionButton:hover{
+    cursor: pointer;
+}
+
+.titleAndButton{
+    color: #FFFFFF;
+    height: 73.3%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    width: 82vw;
+    
+}
+
+@media(max-width:375px){
+    .menu{
+        display: initial;
+        width: 5vw;
+    }
+
+    .menuItems{
+        display: none;
+    }
+
+    .portflow{
+        font-size: 3.5vw;
+        width: 57.87%;
+    }
+
+    header{
+        justify-content: space-between;
+    }
+
+    .firstSection{
+        background-position: 83.5%;
+        height: 107vh;
+    }
+
+    h1{
+        font-size: 14vw;
+        width: 90vw;
+    }
+
+    .firstSectionButton{
+        font-size: 4.1vw;
+        width: 35vw;
+        height: 9vh;
+    }
+
+    .titleAndButton{
+        height: 98%;
+    }
+}
