@@ -24,7 +24,7 @@ header{
 
 .portflow{
     font-size: 2vw;
-    width: 50%;
+    width: 48%;
 }
 
 .menuItems{
@@ -84,6 +84,7 @@ header{
 h1{
     font-size: 4vw;
     width: 60vw;
+    padding-bottom: 5vh;
 }
 
 .firstSectionButton{
@@ -92,7 +93,6 @@ h1{
     color: #FFFFFF;
     width: 14.1vw;
     border: none;
-    height: 15vh;
 }
 
 .firstSectionButton:hover{
@@ -101,18 +101,91 @@ h1{
 
 .titleAndButton{
     color: #FFFFFF;
-    height: 73.3%;
+    height: 64.5%;
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
     width: 82vw;
-    
+}
+
+.secondSection{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 125vh;
+    width: 100%;
+}
+
+.photoOneDesktop, .photoTwoDesktop, .photoThreeDesktop, .photoFourDesktop, .photoFiveDesktop, .photoSixDesktop, .photoSevenDesktop, .photoEightDesktop, .photoNineDesktop, .photoTenDesktop, .photoElevenDesktop, .photoTwelveDesktop{
+    height: 34.5vh;
+}
+
+.imgPartition{
+    width: 83%;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-evenly;
+    justify-content: space-evenly;
+    height: 110.5vh;
+}
+
+.photoOneDesktop:hover{
+    transform: scale(1.05);
+}
+
+.photoTwoDesktop:hover{
+    transform: scale(1.05);
+}
+
+.photoThreeDesktop:hover{
+    transform: scale(1.05);
+}
+
+.photoFourDesktop:hover{
+    transform: scale(1.05);
+}
+
+.photoFiveDesktop:hover{
+    transform: scale(1.05);
+}
+
+.photoSixDesktop:hover{
+    transform: scale(1.05);
+}
+
+.photoSevenDesktop:hover{
+    transform: scale(1.05);
+}
+
+.photoEightDesktop:hover{
+    transform: scale(1.05);
+}
+
+.photoNineDesktop:hover{
+    transform: scale(1.05);
+}
+
+.photoTenDesktop:hover{
+    transform: scale(1.05);
+}
+
+.photoElevenDesktop:hover{
+    transform: scale(1.05);
+}
+
+.photoTwelveDesktop:hover{
+    transform: scale(1.05);
 }
 
 @media(max-width:375px){
+    
+    header{
+        position: initial;
+    }
+    
     .menu{
         display: initial;
-        width: 5vw;
+        width: 6vw;
     }
 
     .menuItems{
@@ -120,7 +193,7 @@ h1{
     }
 
     .portflow{
-        font-size: 3.5vw;
+        font-size: 4.5vw;
         width: 57.87%;
     }
 
@@ -134,17 +207,32 @@ h1{
     }
 
     h1{
-        font-size: 14vw;
+        font-size: 13vw;
         width: 90vw;
+        padding-bottom: 3.4vh;
     }
 
     .firstSectionButton{
-        font-size: 4.1vw;
-        width: 35vw;
-        height: 9vh;
+        font-size: 4.5vw;
+        width: 42vw;
     }
 
     .titleAndButton{
-        height: 98%;
+        height: 94%;
     }
+
+    .secondSection{
+        height: 690vh;
+    }
+
+    .photoOneDesktop, .photoTwoDesktop, .photoThreeDesktop, .photoFourDesktop, .photoFiveDesktop, .photoSixDesktop, .photoSevenDesktop, .photoEightDesktop, .photoNineDesktop, .photoTenDesktop, .photoElevenDesktop, .photoTwelveDesktop{
+        height: 50vh;
+    }
+
+    .imgPartition{
+        width: 100%;
+        height: 665vh;
+        align-content: space-between;
+    }
+
 }
