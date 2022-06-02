@@ -129,52 +129,9 @@ h1{
     height: 110.5vh;
 }
 
-.photoOneDesktop:hover{
+.photoOneDesktop:hover, .photoTwoDesktop:hover, .photoThreeDesktop:hover, .photoFourDesktop:hover, .photoFiveDesktop:hover, .photoSixDesktop:hover, .photoSevenDesktop:hover, .photoEightDesktop:hover, .photoNineDesktop:hover, .photoTenDesktop:hover, .photoElevenDesktop:hover, .photoTwelveDesktop:hover{
     transform: scale(1.05);
-}
-
-.photoTwoDesktop:hover{
-    transform: scale(1.05);
-}
-
-.photoThreeDesktop:hover{
-    transform: scale(1.05);
-}
-
-.photoFourDesktop:hover{
-    transform: scale(1.05);
-}
-
-.photoFiveDesktop:hover{
-    transform: scale(1.05);
-}
-
-.photoSixDesktop:hover{
-    transform: scale(1.05);
-}
-
-.photoSevenDesktop:hover{
-    transform: scale(1.05);
-}
-
-.photoEightDesktop:hover{
-    transform: scale(1.05);
-}
-
-.photoNineDesktop:hover{
-    transform: scale(1.05);
-}
-
-.photoTenDesktop:hover{
-    transform: scale(1.05);
-}
-
-.photoElevenDesktop:hover{
-    transform: scale(1.05);
-}
-
-.photoTwelveDesktop:hover{
-    transform: scale(1.05);
+    cursor: pointer;
 }
 
 @media(max-width:375px){
@@ -214,7 +171,7 @@ h1{
 
     .firstSectionButton{
         font-size: 4.5vw;
-        width: 42vw;
+        width: 38vw;
     }
 
     .titleAndButton{
@@ -222,7 +179,7 @@ h1{
     }
 
     .secondSection{
-        height: 690vh;
+        height: 682vh;
     }
 
     .photoOneDesktop, .photoTwoDesktop, .photoThreeDesktop, .photoFourDesktop, .photoFiveDesktop, .photoSixDesktop, .photoSevenDesktop, .photoEightDesktop, .photoNineDesktop, .photoTenDesktop, .photoElevenDesktop, .photoTwelveDesktop{
@@ -232,7 +189,56 @@ h1{
     .imgPartition{
         width: 100%;
         height: 665vh;
-        align-content: space-between;
+        justify-content: space-between;
+        flex-direction: column-reverse;
+        margin-top: 6vh;
     }
 
+    .photoOneDesktop{
+        order: 3;
+    }
+
+    .photoTwoDesktop{
+        order: 5;
+    }
+
+    .photoThreeDesktop{
+        order: 10;
+    }
+
+    .photoFourDesktop{
+        order: 7;
+    }
+
+    .photoFiveDesktop{
+        order: 12;
+    }
+
+    .photoSixDesktop{
+        order: 6;
+    }
+
+    .photoSevenDesktop{
+        order: 9;
+    }
+
+    .photoEightDesktop{
+        order: 2;
+    }
+
+    .photoNineDesktop{
+        order: 4;
+    }
+
+    .photoTenDesktop{
+        order: 1;
+    }
+
+    .photoElevenDesktop{
+        order: 11;
+    }
+
+    .photoTwelveDesktop{
+        order: 8;
+    }
 }
